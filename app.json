@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Elison Test",
+    "slug": "newapp",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "android": {
+      "splash": {
+        "image": "./assets/images/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.elison.newapp"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app-icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "notification":{
+      "icon": "./assets/images/logo_notification.png",
+      "color": "#000000"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 5
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.elison.newapp",
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": [
+	      	"location",
+          "fetch",
+          "audio"
+	      ] 
+      }
+    }
+  }
+}
